@@ -1,0 +1,6 @@
+try:
+except: zeroDivisionError:  written to address errors in a programme
+
+finally:  block executes even with errors 
+
+raise Exception()  to raise a red error of our own
