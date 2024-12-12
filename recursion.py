@@ -1,5 +1,6 @@
 #recursion lessons iitm
 
+#compound interest using recursion
 '''def compound(p,y):
     if (y==1):
         return p*1.1
