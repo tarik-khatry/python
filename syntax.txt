@@ -4,3 +4,12 @@ except: zeroDivisionError:  written to address errors in a programme
 finally:  block executes even with errors 
 
 raise Exception()  to raise a red error of our own
+
+DataFrame is nothing but two dimentional tabular form to store datasets
+
+#pandas 
+scores = pd.read_csv('scores.csv')
+print(scores['Name']) Reads all the data columnwise
+print(scores[scores['name'] == 'nishant' ])  --> reads all the data rowise
+scores.head()   prints first 5 rows from dataset 
+scores.tail()   prints Last 5 rows from dataset 
