@@ -30,8 +30,10 @@ for sub in subject:
     avg = scores[sub].mean()
     print(scores[scores[sub]>avg].groupby('Gender').groups)
 '''
-
-x =np.array([2,4,5,7])
+#matplotlib
+'''x =np.array([2,4,5,7])
 y =['akibda','ayanya','nabdya','tarkya']
 plt.pie(x,labels=y,startangle=90)
-plt.show()
+plt.show()'''
+
+
