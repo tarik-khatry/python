@@ -1,3 +1,5 @@
+The modulo operation a % b gives the remainder when a is divided by b.
+
 try:
 except: zeroDivisionError:  written to address errors in a programme
 
