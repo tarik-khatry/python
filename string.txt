@@ -1,0 +1,18 @@
+str, int, print, 
+n[0], arithematic operators, relational operators (<,>,==,!=), logical operators(and,or,not)
+
+variables cant be assigned with a number 1a (not possible)
+
+
+    STRING METHODS
+lower upper capitilize title swapcase
+x.islower isupper   istitle
+x.isdigit isalpha isalnum(alphanumeric)
+x.strip("_") removes underscore
+x.lstrip("_") removes underscore from left
+x.rstrip("_") removes underscore from right
+x.startswith("p") returns true if starts with p(case sensitive)
+x.endswith("n") returns true if starts with n(case sensitive)
+x.count("q") counts number of q 
+x.index("w") returns position of w
+x.replace("t", "W") replaces t with W
