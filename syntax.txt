@@ -15,3 +15,37 @@ print(scores['Name']) Reads all the data columnwise
 print(scores[scores['name'] == 'nishant' ])  --> reads all the data rowise
 scores.head()   prints first 5 rows from dataset 
 scores.tail()   prints Last 5 rows from dataset 
+
+print("somthing", end=" ", sep="-")      
+      end makes it on one line, sep is seperator  
+      
+print(f'{num} x {i} = {num*i}')  
+    f' stands for formated printing
+    
+print('{0} x {1} = {2}'.format(num,i,num*i))
+    format function printing
+    
+print('%d x %d = %d'.%(num,i,num*i))
+  print using modulo function - old way used in c
+
+print(f'{num} x {i} = {num*i:.2f} ')     :.2f  gives answer to 2 decimal places
+print('{0:5d}'.format(1))      :5d specifies that we need 5 charecters
+        d is for integers and f is for float (:5f)
+
+
+SET is used for big data set. can search fast. but cant represent element like s[0]
+LIST is for small data set. searches slow. can be changed.  flexiblity 
+TUPLE is unchangable. less size. element can be changed when in list which is in tuple
+
+
+    FUNCTIONS
+
+LAMBA
+super short function and can be written in one line
+ENUMERATE
+gives us index and value at the index in lists etc
+ZIP 
+combines two lists in pythons and sticks first value of one list with other print(zip(fruits,size)) fruits and size are two lists
+
+MAP(FUNCTION,ARGUEMENT1(list),ARGUEMENT2)
+FILTER(FUNCTION,ARGUEMENT1(list),ARGUEMENT2)
